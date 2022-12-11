@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 400px;
+  border: 1px solid rgb(214, 212, 212);
+  border-radius: 5px;
+  box-shadow: 1px 1px rgb(147, 144, 144);
+  padding: 1px 5px 10px 5px;
+  margin-inline: auto;
+  /* position: relative; */
+}
+.btn-list {
+  color: white;
+  background-color: rgb(122, 188, 224);
+  border-color: rgb(122, 188, 224);
+  border-radius: 15px;
+}
+.image {
+  width: 40%;
+  /* position: absolute;
+  bottom: 10%;
+  left: 30%;
+  right: 30%; */
+}
+p {
+  font-family: "Poppins", sans-serif;
+  /* position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%; */
+}
+h3 {
+  /* position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%; */
+  font-family: "Mulish", sans-serif;
+  font-size: small;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 20%;
+    /* position: absolute;
+    bottom: 10%;
+    left: 40%;
+    right: 40%; */
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    /* position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%; */
+  }
+  h3 {
+    /* position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%; */
+    font-family: "Mulish", sans-serif;
+    font-size: large;
+  }
+}

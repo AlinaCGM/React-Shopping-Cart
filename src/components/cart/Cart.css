@@ -1,0 +1,10 @@
+.table-cart {
+  border: 1px solid #aca7a7;
+  table-layout: fixed;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.img {
+  width: 50px;
+}
